@@ -61,19 +61,5 @@ Wrapped in a custom Keras layer and fine-tuned on labeled messages.
 
 📁 Project Structure
 
-graphql
-Copy
-Edit
-harmful-message-detector/
-├── Model.py                # Flask API using USE model
-├── model.keras             # Pretrained Keras model
-├── requirements.txt        # Backend dependencies
-├── Dockerfile              # Backend Dockerfile
-├── ui/
-│   ├── streamlit_app.py    # Streamlit UI
-│   ├── requirements.txt
-│   └── Dockerfile
-├── docker-compose.yml      # Combined setup for frontend & backend
-├── README.md
-└── .gitignore
+![image](https://github.com/user-attachments/assets/96e56ec1-2dbf-4843-90a3-51215cf8886b)
 
