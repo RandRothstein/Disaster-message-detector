@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  backend:
+    build: .
+    container_name: ml_backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    restart: unless-stopped
+
+  frontend:
+    build: ./ui
+    container_name: streamlit_ui
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
