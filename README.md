@@ -40,6 +40,7 @@ Frontend UI → http://localhost:8501
 You can pull the prebuilt backend image directly from Docker Hub:
 ```bash
 docker pull randrothstein/harmful-detector-backend:latest
+docker pull randrothstein/harmful-detector-frontend:latest
 ```
 
 You can update the docker-compose.yml to as it is Docker_image_file use this image instead of building locally.
