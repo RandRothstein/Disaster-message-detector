@@ -9,7 +9,7 @@ A simple natural language powered web app that detects whether a given message i
 - 🎨 Streamlit UI
 - 📦 Hosted on Docker Hub
 - 🔍 Universal Sentence Encoder from TF Hub
-- Nature Language Processing
+- 🗣️ Nature Language Processing
 
 ---
 
