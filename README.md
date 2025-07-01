@@ -38,8 +38,14 @@ You can pull the prebuilt backend image directly from Docker Hub:
 docker pull randrothstein/harmful-detector-backend:latest
 ```
 
-You can update the docker-compose.yml to use this image instead of building locally.
+You can update the docker-compose.yml to as it is Docker_image_file use this image instead of building locally.
+```
+  backend:
+    image: randrothstein/harmful-detector-backend:latest
 
+  frontend:
+    image: randrothstein/harmful-detector-ui:latest
+```
 
 
 ## 🤖 Model
