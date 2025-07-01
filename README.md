@@ -20,3 +20,14 @@ A simple natural language powered web app that detects whether a given message i
 ```bash
 git clone https://github.com/randrothstein/harmful-message-detector.git
 cd harmful-message-detector
+```
+Build & Run with Docker Compose
+```docker-compose up --build```
+Backend (Flask): http://localhost:5000
+
+Frontend (Streamlit): http://localhost:8501
+
+🐳 Docker Hub Images
+You can also pull the pre-built containers:
+
+'''docker pull randrothstein/harmful-detector-backend:latest'''
