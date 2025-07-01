@@ -1,4 +1,4 @@
-# ⚠️ Harmful Message Detector
+# ⚠️ Disaster Message Detector
 
 A simple natural language powered web app that detects whether a given message is disastrous or not using a fine-tuned Universal Sentence Encoder model.
 
