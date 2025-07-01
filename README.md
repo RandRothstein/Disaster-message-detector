@@ -23,11 +23,9 @@ cd harmful-message-detector
 ```
 ### 2. Build & Run with Docker Compose
 This will build both backend and frontend containers and start them up.
-
-bash
-Copy
-Edit
+```bash
 docker-compose up --build
+```
 ### 3. Access the App
 Backend API → http://localhost:5000
 
@@ -36,11 +34,10 @@ Frontend UI → http://localhost:8501
 
 ### 4. 🐳 Docker Hub (Optional)
 You can pull the prebuilt backend image directly from Docker Hub:
-
-bash
-Copy
-Edit
+```bash
 docker pull randrothstein/harmful-detector-backend:latest
+```
+
 You can update the docker-compose.yml to use this image instead of building locally.
 
 
