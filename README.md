@@ -57,3 +57,23 @@ You can update the docker-compose.yml to as it is Docker_image_file use this ima
 The model uses Universal Sentence Encoder (USE) from TensorFlow Hub.
 
 Wrapped in a custom Keras layer and fine-tuned on labeled messages.
+
+
+📁 Project Structure
+
+graphql
+Copy
+Edit
+harmful-message-detector/
+├── Model.py                # Flask API using USE model
+├── model.keras             # Pretrained Keras model
+├── requirements.txt        # Backend dependencies
+├── Dockerfile              # Backend Dockerfile
+├── ui/
+│   ├── streamlit_app.py    # Streamlit UI
+│   ├── requirements.txt
+│   └── Dockerfile
+├── docker-compose.yml      # Combined setup for frontend & backend
+├── README.md
+└── .gitignore
+
