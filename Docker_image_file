@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  backend:
+    image: randrothstein/harmful-detector-backend:latest
+    container_name: ml_backend
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+
+  frontend:
+    image: randrothstein/harmful-detector-ui:latest
+    container_name: streamlit_ui
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
