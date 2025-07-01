@@ -13,7 +13,7 @@ A simple natural language powered web app that detects whether a given message i
 
 ---
 
-## UI
+## 🎨 UI
 ![image](https://github.com/user-attachments/assets/6a233ab7-463f-4d0c-9cb6-05e8a76aa882)
 
 
