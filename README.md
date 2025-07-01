@@ -21,13 +21,31 @@ A simple natural language powered web app that detects whether a given message i
 git clone https://github.com/randrothstein/harmful-message-detector.git
 cd harmful-message-detector
 ```
-Build & Run with Docker Compose
-```docker-compose up --build```
-Backend (Flask): http://localhost:5000
+### 2. Build & Run with Docker Compose
+This will build both backend and frontend containers and start them up.
 
-Frontend (Streamlit): http://localhost:8501
+bash
+Copy
+Edit
+docker-compose up --build
+### 3. Access the App
+Backend API → http://localhost:5000
 
-🐳 Docker Hub Images
-You can also pull the pre-built containers:
+Frontend UI → http://localhost:8501
 
-'''docker pull randrothstein/harmful-detector-backend:latest'''
+
+### 4. 🐳 Docker Hub (Optional)
+You can pull the prebuilt backend image directly from Docker Hub:
+
+bash
+Copy
+Edit
+docker pull randrothstein/harmful-detector-backend:latest
+You can update the docker-compose.yml to use this image instead of building locally.
+
+
+
+## 🤖 Model
+The model uses Universal Sentence Encoder (USE) from TensorFlow Hub.
+
+Wrapped in a custom Keras layer and fine-tuned on labeled messages.
